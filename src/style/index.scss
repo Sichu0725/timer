@@ -1,0 +1,40 @@
+html,
+body,
+#sad_man,
+#glowing_star {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+#container {
+  margin: auto;
+  display: block;
+  width: fit-content;
+  max-width: 1000px;
+  // min-width: 1000px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  & > * {
+    margin: 10px 5px;
+  }
+}
+
+.contents {
+  display: inline-block;
+}
+
+button {
+  height: fit-content;
+  font-size: 0.8em;
+}
+
+hr.sad_man {
+  display: block;
+}
+
+hr.glowing_star {
+  display: none;
+}

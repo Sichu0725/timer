@@ -1,0 +1,57 @@
+#glowing_star {
+  background-color: #0f111d !important;
+}
+
+* {
+  color: white;
+}
+
+button {
+  color: black;
+}
+
+button.glowing_star {
+  background-color: white;
+  color: #0f111d;
+  border: #1e1f22;
+  border-radius: 5px;
+
+  -webkit-box-shadow: 0px 0px 36px 0px rgba(45, 255, 196, 0.77);
+  -moz-box-shadow: 0px 0px 36px 0px rgba(45, 255, 196, 0.77);
+  box-shadow: 0px 0px 36px 0px rgba(45, 255, 196, 0.77);
+}
+
+div.glowing_star {
+  border-radius: 15px;
+  padding: 5px;
+  display: block;
+  margin: 30px auto;
+  width: 300px;
+  -webkit-box-shadow: 0px 0px 36px 0px rgba(45, 255, 196, 0.77);
+  -moz-box-shadow: 0px 0px 36px 0px rgba(45, 255, 196, 0.77);
+  box-shadow: 0px 0px 36px 0px rgba(45, 255, 196, 0.77);
+
+  & > * {
+    text-align: center;
+  }
+}
+
+img {
+  width: 100%;
+  object-fit: scale-down;
+}
+
+ul,
+li {
+  list-style: none;
+  display: inline-block;
+}
+ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  cursor: pointer;
+}
